@@ -7,6 +7,8 @@ package example.model;
  * Each account holder has a name, a surname and an ID (unique in the bank system)
  */
 public class AccountHolder {
+    public static final int FEE = 1;
+
     private final int id;
     private final String name;
     private final String surname;
